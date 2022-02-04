@@ -20,7 +20,7 @@ function Tabel() {
             <th>Company</th>
           </tr>
         </thead>
-        <tbody id="isian"></tbody>
+        <tbody id="tabel"></tbody>
       </table>
     </div>
   );
