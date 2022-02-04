@@ -4,12 +4,12 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Tabel from './Tabel';
-import Ambil from './Fetch';
+import Hasil from './Fetch';
 
 ReactDOM.render(
   <React.StrictMode>
     <Tabel />
-    <Ambil />
+    <Hasil />
   </React.StrictMode>,
   document.getElementById('root')
 );
