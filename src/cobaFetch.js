@@ -1,4 +1,4 @@
-const table = document.getElementById('data');
+const table = document.getElementById('isianTabel');
 
 fetch('https://jsonplaceholder.typicode.com/users')
   .then((res) => res.json())
