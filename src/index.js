@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Tabel from './Tabel';
+import Ambil from './Fetch';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Tabel />
+    <Ambil />
   </React.StrictMode>,
   document.getElementById('root')
 );
