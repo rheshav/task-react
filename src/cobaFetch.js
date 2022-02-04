@@ -3,10 +3,10 @@ const table = document.getElementById('data');
 fetch('https://jsonplaceholder.typicode.com/users')
   .then((res) => res.json())
   .then((res) => {
-    table.innerHTML = render(res);
+    table.innerHTML = hasil(res);
   });
 
-function render(result) {
+function hasil(result) {
   let table = '';
   result.forEach((data) => {
     table += `<tr>
